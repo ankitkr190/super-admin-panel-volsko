@@ -52,7 +52,7 @@ $(document).ready(function () {
     $(document).on("click", ".edit", function () {
       $(this)
         .parents("tr")
-        .find("td:not(:last-child)")
+        .find("td:not(:last-child):not(:nth-last-child(-n+2))")
         .each(function () {
           $(this).html(
             '<input type="text" class="form-control" value="' +
