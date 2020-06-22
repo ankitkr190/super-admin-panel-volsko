@@ -1,0 +1,84 @@
+.middle-box {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-card {
+    background-color: #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    max-width: 60vw;
+    margin: 52px auto;
+    padding: 60px 20px;
+    color: #666666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group #checktext {
+    font-weight: normal
+}
+
+.form-group input,
+.form-group textarea {
+    border-radius: 5px;
+    border: 1px solid #777;
+    display: block;
+    color: black;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+
+.form-group input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.form-group input:hover {
+    border: 2px solid #111;
+}
+
+.form-group textarea:hover {
+    border: 2px solid #111;
+}
+
+.form-group input[type="checkbox"]:hover {
+    border: 2px solid #111;
+}
+
+button {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #8a7400;
+    display: block;
+    background-color: #111;
+    font-size: 14px;
+    padding: 8px 15px;
+    position: relative;
+    transition: all 0.1s ease;
+    text-decoration: none;
+    border: none;
+    float: left;
+    color: #ffc107;
+}
+
+button:hover {
+    box-shadow: 0 0 0 #8a7400;
+    transform: translate(2px, 2px);
+}
+
+@media(max-width:700px) {
+    .form-card {
+        max-width: 100%;
+    }
+}
